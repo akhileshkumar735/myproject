@@ -55,7 +55,7 @@ store.on("error",() =>{
 // Session and flash config
 const sessionOptions = {
     store,
-    secret: Process.env.SECRET,
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: {
